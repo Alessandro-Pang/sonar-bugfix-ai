@@ -10,7 +10,11 @@
 
 Sonar Bug AI 自动化修复 Demo，使用 AI 模型自动修复 Sonar Bug。
 
-**实现思路：** 从 SonarQube 中获取 Bug 信息，然后使用 AI 模型自动修复 Bug。
+**实现思路：** 
+
+从 SonarQube 中获取 Bug 信息，然后使用 AI 模型自动修复 Bug。
+
+详细文章：[Python + Google AI 自动修复 Sonar Bug 实践](https://juejin.cn/post/7338771486399971328)
 
 **注意:** 这是一个 Demo 项目，用于演示如何使用 AI 自动化修复 Sonar Bug，请不要在生产环境中使用。
 
