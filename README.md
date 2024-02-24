@@ -28,6 +28,8 @@ pip install -r requirements.txt
 
 修改 `.env` 文件中的配置信息，请注意需要自己申请 AI 模型的 Token。
 
+默认使用 Google AI `gemini` 模型，如果需要使用 OpenAI `ChatGPT` 模型，请修改 `.env` 文件中的 `USE_AI_MODEL` 为 `openai`。 
+
 ```dotenv
 ########################## 通用配置 配置 ###############################
 # 配置 AI 服务提供商，可选值：openai、gemini
