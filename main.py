@@ -12,7 +12,7 @@ import os
 
 from dotenv import load_dotenv
 
-from sonar.issue import get_sonar_issue, merge_overlapping_intervals
+from sonar.issue import get_sonar_issue
 from utils.common import write_file, read_file
 
 load_dotenv('.env')
